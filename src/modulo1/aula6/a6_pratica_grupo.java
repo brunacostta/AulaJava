@@ -90,9 +90,7 @@ public class a6_pratica_grupo {
 
                 invalido = true;
                 System.out.println("================== Escolha a aplicacao a ser cadastrada ================= ");
-                System.out.println("1 - Front-End ");
-                System.out.println("2 - Back-End ");
-                System.out.println("3 - Mobile ");
+                System.out.println("|1| FrontEnd          |2| BackEnd                  |3| Mobile");
 
                 int opcao = sc.nextInt();
                 sc.nextLine();
