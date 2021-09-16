@@ -7,11 +7,10 @@ public class a6_pratica_grupo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("================== Cadastro de Devs ================= ");
-        System.out.println("================== Digite o numero correspondente à opção desejada ================= ");
-        System.out.println("1 - Cadastrar Dev ");
-        System.out.println("2 - Cadastrar Linguagem ");
-        System.out.println("0 - Sair ");
+        System.out.println("=========================== CADASTRO DE DEVS ======================================= ");
+        System.out.println("=============================== BEM VINDO ========================================== ");
+        System.out.println("|1| CADASTRAR DEV            |2| CADASTRAR LINGUAGEM                         |3| SAIR");
+        System.out.print("Informe a opção desejada: ");
 
         int escolha = sc.nextInt();
         sc.nextLine();
