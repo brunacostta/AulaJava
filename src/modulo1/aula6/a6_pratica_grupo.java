@@ -56,7 +56,7 @@ public class a6_pratica_grupo {
                     System.out.println("Digite a idade do dev: ");
                     int idade = sc.nextInt();
                     if (idade < 1) {
-                        System.out.println("Idade invalida. Insira a sua idade novamente.  ");
+                        System.out.println("Idade invalida. Insira a sua idade novamente. ");
                     } else {
                         invalido = false;
                     }
@@ -79,7 +79,7 @@ public class a6_pratica_grupo {
 
                 invalido = true;
                 do {
-                    System.out.println("Digite a descricao da linguagem ");
+                    System.out.println("Digite a descricao da linguagem: ");
                     String descricao = sc.nextLine();
                     if (descricao.length() < 3) {
                         System.out.println("A descricao da linguagem deve ter, no minimo, três (3) caracteres. ");
@@ -131,7 +131,7 @@ public class a6_pratica_grupo {
                 break;
 
             default:
-              System.out.println("Opcao invalida. ");
+              System.out.println("Opcao invalida.");
               break;
         }
     }
