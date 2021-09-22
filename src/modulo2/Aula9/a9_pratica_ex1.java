@@ -25,7 +25,7 @@ public class a9_pratica_ex1 {
     }
 
     static void cabecalho(){
-        System.out.println("============= Academia - JAVA Métodos ============");
+        System.out.println("============= Exercício - JAVA Métodos ============");
     }
 
     static double ler_double(){
