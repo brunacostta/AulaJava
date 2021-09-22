@@ -9,14 +9,14 @@ public class a9_pratica_ex1 {
         cabecalho();
         double n1 = ler_double();
         double n2 = ler_double();
-        double s1 = soma(n1, n2);
-        System.out.printf("O resultado da soma de %.2f com %.2f é: %.2f\n", n1, n2, s1);
-        double s2 = subtracao(n1, n2);
-        System.out.printf("O resultado da subtração de %.2f com %.2f é: %.2f\n", n1, n2, s2);
-        double m = multiplicacao(n1, n2);
-        System.out.printf("O resultado da multiplicação de %.2f com %.2f é: %.2f\n", n1, n2, m);
-        double d = divisao(n1, n2);
-        System.out.printf("O resultado da divisão de %.2f com %.2f é: %.2f\n", n1, n2, d);
+        double resultsoma = soma(n1, n2);
+        System.out.printf("O resultado da soma de %.2f com %.2f é: %.2f\n", n1, n2, resultsoma);
+        double resultsub = subtracao(n1, n2);
+        System.out.printf("O resultado da subtração de %.2f com %.2f é: %.2f\n", n1, n2, resultsub);
+        double resultmultiplicacao = multiplicacao(n1, n2);
+        System.out.printf("O resultado da multiplicação de %.2f com %.2f é: %.2f\n", n1, n2, resultmultiplicacao);
+        double resultdivisao = divisao(n1, n2);
+        System.out.printf("O resultado da divisão de %.2f com %.2f é: %.2f\n", n1, n2, resultdivisao);
 
     }
     static void cabecalho(){
